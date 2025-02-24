@@ -1,0 +1,19 @@
+project-root/
+│── src/
+│   │── api/            # API request functions (e.g., axios, fetch)
+│   │── assets/         # Static assets like images, icons, fonts
+│   │── components/     # Reusable UI components (buttons, modals, forms)
+│   │── hooks/          # Custom React hooks (e.g., useAuth, useFetch)
+│   │── layouts/        # Layout components (e.g., Navbar, Sidebar, Footer)
+│   │── pages/          # Page-level components (e.g., Home, Dashboard, Profile)
+│   │── context/        # React Context for global state (if needed)
+│   │── services/       # Business logic (auth, user service, etc.)
+│   │── utils/          # Helper functions (formatters, validators, etc.)
+│   │── styles/         # Global styles (CSS, SCSS, Tailwind configs)
+│   │── App.tsx         # Root component
+│   │── main.tsx        # Entry point (renders <App />)
+│── public/             # Static public files (index.html, favicon, robots.txt)
+│── package.json        # Dependencies and scripts
+│── tsconfig.json       # TypeScript config (if using TS)
+│── .env                # Environment variables
+│── .gitignore          # Git ignore file
